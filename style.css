@@ -1,0 +1,165 @@
+@import"./styles/media.css";
+@import"./styles/variables.css";
+@import"./styles/global.css";
+
+
+@font-face {
+    src: url(./assets/Alice-Regular.ttf);
+    font-family: Alice;
+}
+
+@font-face {
+    src: url(./assets/Poppins-Regular.ttf);
+    font-family: Poppins;
+}
+
+button{
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 136px;
+    gap: 80px;
+    background: var(--white);
+}
+
+.title {
+    width: 770px;
+    height: 139px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+h1 {
+    font-family: var();
+    font-weight: 400;
+    font-size: 48px;
+    text-transform: capitalize;
+    color: var(--neutral-2);
+}
+
+.green-text {
+    color: var(--green);
+}
+
+.title-text-desctop {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: var(--neutral-4);
+}
+
+.title-text-mobile {
+    display: none;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: var(--neutral-4);
+}
+
+.cuisine {
+    border-radius: 8px;
+    padding: 6px;
+    width: 672px;
+    height: 74px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.cuisine-type {
+    font-family: Poppins;
+}
+
+.food {
+    border-radius: 8px;
+    width: 196px;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    gap: 8px;
+}
+
+.green-card {
+    background: var(--green);
+    color: var(--white);
+}
+
+.cards {
+    width: 1168px;
+    height: 481px;
+    display: flex;
+    gap: 74px;
+}
+
+.food-card {
+    border-radius: 7px;
+    width: 340px;
+    height: 481px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.info {
+    display: flex;
+    padding: 0px 24px;
+    width: 340px;
+    height: 125px;
+    gap: 12px;
+    flex-direction: column;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: -0.01em;
+}
+
+.rate {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.views {
+    font-family: Poppins;
+}
+
+.buy {
+    display: flex;
+    gap: 70px;
+}
+
+.price {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: var(--green);
+}
+
+.order {
+    border-radius: 6px;
+    width: 117px;
+    height: 40px;
+    border: none;
+    background: var(--green);
+    color: var(--white);
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    font-family: Poppins;
+}
+
+.order-text {
+    font-family: Poppins;
+}
